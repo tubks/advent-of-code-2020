@@ -4,7 +4,7 @@ def krotki(l):
 possible=[]
 given=[]
 krotki(possible)
-f=open("C:\\Users\\X260\\Desktop\\inpu.txt", "r")
+f=open("inpu.txt", "r")
 for line in f:
     given.append(int(line))
 for pair in possible:
