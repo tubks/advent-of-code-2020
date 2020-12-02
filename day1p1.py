@@ -8,6 +8,6 @@ f=open("inpu.txt", "r")
 for line in f:
     given.append(int(line))
 for pair in possible:
-        if (pair[0] in given and pair[1] in given):
+        if pair[0] in given and pair[1] in given:
             print(pair[0]*pair[1])
 f.close()
